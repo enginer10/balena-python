@@ -1,10 +1,8 @@
-name: balena-python-hello-world
+name: balena-python
 type: sw.application
 joinable: false
 description: >-
-  This is a simple skeleton python server that works on any of the
-  devices supported by balena. It also serves as a boilerplate project for you
-  to get started on building your fleet. Have fun! 
+  This is a simple skeleton python server that works on any of the devices supported by balena. 
 post-provisioning: >-
   ## Usage instructions
 
@@ -13,7 +11,7 @@ assets:
   repository:
     type: blob.asset
     data:
-      url: 'https://github.com/balena-io-examples/balena-python-hello-world/'
+      url: 'https://github.com/enginer10/balena-python'
   logo:
     type: blob.asset
     data:
